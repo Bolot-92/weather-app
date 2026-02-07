@@ -11,10 +11,9 @@ btn.addEventListener('click', () => {
         .then((res) => {
             console.log(res.current.temp_c)
             text.innerText = res.current.temp_c + "°"
-            icon.src = "https:" + data.current.condition.icon
-            icon.alt = data.current.condition.text
-            
-            setBackground(data.current.condition.text)
+            icon.src = "https:" + res.current.condition.icon
+            icon.alt = res.current.condition.text
+            setBackground(res.current.condition.text)
 
         }) 
 })
