@@ -69,3 +69,23 @@ input:focus {
     width: 80px;
     margin-top: 10px;
 }
+
+body.clear {
+    background: linear-gradient(135deg, #fceabb, #f8b500)
+}
+
+body.cloudy {
+    background: linear-gradient(135deg, #d7d2cc, #304352)
+}
+
+body.rain {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb)
+}
+
+body.snow {
+    background: linear-gradient(135deg, #e6e9f0, #eef1f5)
+}
+
+body.thunder {
+    background: linear-gradient(135deg, #141e30, #243b55)
+}
