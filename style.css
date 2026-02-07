@@ -64,3 +64,8 @@ input:focus {
     font-size: 48px;
     color: #333;
 }
+
+#icon {
+    width: 80px;
+    margin-top: 10px;
+}

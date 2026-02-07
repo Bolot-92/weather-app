@@ -1,6 +1,7 @@
 const input = document.getElementById("input")
 const btn = document.getElementById("btn")
 const text = document.getElementById("text")
+const icon = document.getElementById("icon")
 
 btn.addEventListener('click', () => {
     console.log(input.value)
@@ -10,5 +11,7 @@ btn.addEventListener('click', () => {
         .then((res) => {
             console.log(res.current.temp_c)
             text.innerText = res.current.temp_c + "°"
+            icon.src = "https:" + data.current.condition.icon
+            icon.alt = data.current.condition.text
         }) 
 })
